@@ -1,0 +1,36 @@
+.banner__wrap {
+    background-image: url(../../assets/img/banner_bg01@2x.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner__inner {
+    text-align: center;
+    color: #fff;
+}
+.banner__title {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.banner__desc {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+.banner__desc a {
+    display: block;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 70px;
+}
+.banner__sub {
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: underline;
+    text-underline-position: under;
+}

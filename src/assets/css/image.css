@@ -1,0 +1,44 @@
+.image__wrap {
+    width: 100%;
+    /* background: rgba(0,0,0,0.2); */
+}
+.image__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.image__inner .image {
+    width: 570px;
+    position: relative;
+}
+.image__figure img {
+    width: 100%;
+    vertical-align: top;
+}
+.image__body {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: #fff;
+    text-align: left;
+}
+.image__title {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.image__desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 16px;
+}
+.image__btn {
+    text-decoration: none;
+    color: #fff;
+    background: #BE4E15;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.image__btn.yellow {
+    background: #C9931D;
+}
