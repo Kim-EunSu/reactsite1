@@ -4,7 +4,7 @@ function ImgText(props) {
   return (
     <section
       id="imgTextType"
-      className={`imgText__wrap ${props.skill[0]} ${props.skill[1]}`}
+      className={`image__wrap ${props.skill[0]} ${props.skill[1]} ${props.skill[2]}`}
     >
       <h2 className="ir_so">이미지 텍스트 영역</h2>
       <div className="imgText__inner container">
